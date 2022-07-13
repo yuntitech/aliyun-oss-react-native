@@ -18,7 +18,7 @@ def safeExtGet(prop, fallback) {
 android {
 
     compileSdkVersion safeExtGet('compileSdkVersion', 23)
-    compileSdkVersion safeExtGet('buildToolsVersion', '27.0.3')
+    buildToolsVersion safeExtGet('buildToolsVersion', '27.0.3')
 
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
@@ -27,7 +27,7 @@ android {
         versionCode 1
         versionName "1.0"
     }
-    
+
     lintOptions {
         abortOnError false
     }
