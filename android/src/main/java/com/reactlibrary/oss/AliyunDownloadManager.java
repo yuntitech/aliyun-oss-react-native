@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.reactlibrary.oss;
 
 import android.os.Environment;
 import android.util.Log;
@@ -13,7 +13,6 @@ import com.alibaba.sdk.android.oss.model.GetObjectResult;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactContext;
-import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;

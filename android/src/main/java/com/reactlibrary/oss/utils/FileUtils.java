@@ -1,4 +1,4 @@
-package com.reactlibrary.utils;
+package com.reactlibrary.oss.utils;
 
 import android.content.Context;
 import android.net.Uri;

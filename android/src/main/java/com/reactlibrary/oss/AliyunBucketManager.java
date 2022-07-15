@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.reactlibrary.oss;
 
 import android.util.Log;
 
@@ -18,7 +18,6 @@ import com.alibaba.sdk.android.oss.model.ListBucketsRequest;
 import com.alibaba.sdk.android.oss.model.ListBucketsResult;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
-import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.WritableMap;
 
 public class AliyunBucketManager {

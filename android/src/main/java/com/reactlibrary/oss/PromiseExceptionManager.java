@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.reactlibrary.oss;
 
 import android.util.Log;
 

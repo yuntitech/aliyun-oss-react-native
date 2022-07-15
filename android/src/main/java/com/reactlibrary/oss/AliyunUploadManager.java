@@ -1,7 +1,5 @@
-package com.reactlibrary;
+package com.reactlibrary.oss;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.MediaStore;
@@ -34,11 +32,10 @@ import com.alibaba.sdk.android.oss.model.UploadPartResult;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactContext;
-import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
-import com.reactlibrary.utils.FileUtils;
+import com.reactlibrary.oss.utils.FileUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
